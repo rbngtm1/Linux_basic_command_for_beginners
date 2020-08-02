@@ -109,3 +109,22 @@
   * netstat -anp || grep LISTEN   ---- will show all ports opened
 #### telnet
   * telnet IP_add 8080  -- will show if you have 8080 port open in that IP. If it's opend it gives connected message
+#### setting password as user
+  * cd 
+  * sudo useradd USERNAME
+  * sudo passwd USERNAME
+#### create a shortcut of /tmp/abc.txt in home directory
+  * cd /
+  * vi /tmp/abc.txt
+  * cd
+  * ln -s /tmp/abc.txt shortcutabc.txt
+#### giving permission to file name
+  * chmod 700 {filename}
+  * chmod 600 {filename}
+  * chmod 755 {filename} and so on
+#### More, less, head, tail
+  * more >> enter (more%) , b (less%)
+  * less >> space (down) b (up)
+  * head >> top 10 content within a file
+  * tail >> buttom 10 content within a file 
+
